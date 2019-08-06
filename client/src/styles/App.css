@@ -1,0 +1,81 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+.homepage{
+    margin:auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.userinfo {
+    margin:auto;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.userinfo .links {
+    display: flex;
+}
+.goinglink , .nglink  {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+a {
+    text-decoration: none;
+}
+.nglink {
+    margin-left: 70px;
+}
+.info {
+    margin:auto;
+    align-items: center;
+    background: #ddd;
+    border: 1px solid #c8c8c8;
+    width: 270px;
+    height: 380px;
+}
+.info img {
+    border-radius: 50%;
+    margin-left: 68px;
+    margin-top: 20px;
+    border: 2px solid grey;
+}
+.username {
+    text-transform: capitalize;
+}
+.info p {
+    padding-left: 12px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+.notgoingbut {
+    position: relative;
+    top: 0;
+    right: -177px;
+    height: 30px;
+    width: 50px;
+    background: red;
+    color: white;
+    padding-top: 3px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}
+.goingbut {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    background: green;
+    height: 30px;
+    width: 50px;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}
